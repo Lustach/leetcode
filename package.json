@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch 'src/**/*.ts' --exec ts node src/sum_two.ts",
+    "start": "nodemon --watch 'src/**/*.ts' --exec ts node src/romanToInt.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.22",
-    "typescript": "^5.0.4"
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
   }
 }
